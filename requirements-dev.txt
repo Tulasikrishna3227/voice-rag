@@ -1,0 +1,11 @@
+# lightweight deps for tests/CI (heavy ML models are stubbed)
+fastapi
+httpx
+pytest
+python-multipart
+python-dotenv
+pymupdf
+chromadb
+edge-tts
+openai
+numpy

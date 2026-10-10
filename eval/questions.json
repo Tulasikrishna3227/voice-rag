@@ -1,0 +1,14 @@
+[
+  {"question": "What is the consultation fee at Sunrise Clinic?", "source": "clinic_en.txt", "page": 1, "any_of": ["300"]},
+  {"question": "సన్‌రైజ్ క్లినిక్ కన్సల్టేషన్ ఫీజు ఎంత?", "source": "clinic_en.txt", "page": 1, "any_of": ["300"]},
+  {"question": "When does Green Valley School open admissions?", "source": "school_en.txt", "page": 1, "any_of": ["March", "మార్చి", "मार्च"]},
+  {"question": "ग्रीन वैली स्कूल की वार्षिक फीस कितनी है?", "source": "school_en.txt", "page": 1, "any_of": ["45"]},
+  {"question": "What interest rate does Sri Lakshmi bank charge on home loans?", "source": "bank_te.txt", "page": 1, "any_of": ["8.5"]},
+  {"question": "గృహ రుణానికి గరిష్ట కాలపరిమితి ఎంత?", "source": "bank_te.txt", "page": 1, "any_of": ["20", "ఇరవై"]},
+  {"question": "How much is the library membership fee?", "source": "library_te.txt", "page": 1, "any_of": ["200"]},
+  {"question": "लाइब्रेरी में एक बार में कितनी किताबें ले सकते हैं?", "source": "library_te.txt", "page": 1, "any_of": ["3", "तीन", "three"]},
+  {"question": "What is the monthly fee at Fitness Hub gym?", "source": "gym_hi.txt", "page": 1, "any_of": ["1500", "1,500"]},
+  {"question": "ఫిట్‌నెస్ హబ్ జిమ్ ఎన్ని గంటలకు తెరుస్తారు?", "source": "gym_hi.txt", "page": 1, "any_of": ["5", "ఐదు"]},
+  {"question": "Which number should I call for an ambulance at City Hospital?", "source": "hospital_hi.txt", "page": 1, "any_of": ["108"]},
+  {"question": "सिटी अस्पताल में ओपीडी का समय क्या है?", "source": "hospital_hi.txt", "page": 1, "any_of": ["9", "नौ"]}
+]

@@ -1,5 +1,5 @@
 from pathlib import Path
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 
 from .config import CHUNK_WORDS, CHUNK_OVERLAP
 

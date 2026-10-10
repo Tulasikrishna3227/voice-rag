@@ -39,7 +39,10 @@ with tab_text:
     q = st.text_input("Ask a question (Telugu / Hindi / English)")
     if q:
         r = requests.post(f"{API}/ask", json={"question": q}, timeout=120)
-        show(r.json()) if r.ok else st.error(r.text)
+        if r.ok:
+            show(r.json())
+        else:
+            st.error(r.text)
 
 with tab_voice:
     audio = st.audio_input("Record your question")

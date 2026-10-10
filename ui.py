@@ -38,7 +38,7 @@ tab_text, tab_voice = st.tabs(["Text", "Voice"])
 with tab_text:
     q = st.text_input("Ask a question (Telugu / Hindi / English)")
     if q:
-        r = requests.post(f"{API}/ask", json={"question": q}, timeout=120)
+        r = requests.post(f"{API}/ask", json={"question": q}, timeout=300)
         if r.ok:
             show(r.json())
         else:
